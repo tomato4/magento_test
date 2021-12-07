@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:app/etc/routes.xsd">
     <router id="admin">
-        <route id="menu" frontName="menu">
+        <route id="test_pos" frontName="test_pos">
             <module name="Test_Pos" />
         </route>
     </router>

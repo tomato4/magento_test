@@ -1,0 +1,23 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="test_pos_entity_listing_data_source" xsi:type="string">Test\Pos\Model\ResourceModel\PosEntity\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+    <virtualType name="Test\Pos\Model\ResourceModel\PosEntity\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">test_pos_entity</argument>
+            <argument name="resourceModel" xsi:type="string">Test\Pos\Model\ResourceModel\PosEntity</argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="New POS" xsi:type="object">Test\Pos\Console\Command\NewPos</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
