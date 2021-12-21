@@ -3,11 +3,13 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Test_Pos::menu" title="Custom Menu" sortOrder="10" >
-                    <resource id="Test_Pos::create" title="Create" sortOrder="50" />
-                    <resource id="Test_Pos::delete" title="Delete" sortOrder="100" />
-                    <resource id="Test_Pos::view" title="View" sortOrder="150">
-                        <resource id="Test_Pos::view_additional" title="View Additional Information" sortOrder="10" />
+                <resource id="Magento_Backend::content">
+                    <resource id="Test_Pos::menu" title="Custom Menu" sortOrder="10" >
+                        <resource id="Test_Pos::create" title="Create" sortOrder="50" />
+                        <resource id="Test_Pos::delete" title="Delete" sortOrder="100" />
+                        <resource id="Test_Pos::view" title="View" sortOrder="150">
+                            <resource id="Test_Pos::view_additional" title="View Additional Information" sortOrder="10" />
+                        </resource>
                     </resource>
                 </resource>
             </resource>
