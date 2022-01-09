@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Test\Pos\Controller\Adminhtml;
+namespace Magexo\Pos\Controller\Adminhtml;
 
 
 use Magento\Backend\App\Action;

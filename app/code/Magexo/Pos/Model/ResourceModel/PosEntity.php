@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Test\Pos\Model\ResourceModel;
+namespace Magexo\Pos\Model\ResourceModel;
 
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;

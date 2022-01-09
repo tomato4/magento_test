@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
-    <menu>
-        <add id="Test_Pos::menu" title="POS" module="Test_Pos" sortOrder="20" action="test_pos/pos" parent="Magento_Backend::content" resource="Magento_Backend::content"/>
-    </menu>
-</config>

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Test\Pos\Console\Command;
+namespace Magexo\Pos\Console\Command;
 
 
 use Symfony\Component\Console\Command\Command;

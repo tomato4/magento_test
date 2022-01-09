@@ -1,6 +1,6 @@
 <?php
 
-namespace Test\Pos\Model;
+namespace Magexo\Pos\Model;
 
 use Magento\Framework\DataObject\IdentityInterface;
 use Magento\Framework\Model\AbstractModel;

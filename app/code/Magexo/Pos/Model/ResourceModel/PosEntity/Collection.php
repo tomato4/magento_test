@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Test\Pos\Model\ResourceModel\PosEntity;
+namespace Magexo\Pos\Model\ResourceModel\PosEntity;
 
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
