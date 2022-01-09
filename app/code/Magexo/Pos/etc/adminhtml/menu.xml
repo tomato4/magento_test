@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Magexo_Pos::POS" title="POS" module="Magexo_Pos" sortOrder="20" parent="Magento_Backend::content" resource="Magento_Backend::content"/>
-        <add id="Magento_Pos::manage" title="Manage" module="Magexo_Pos" sortOrder="0" parent="Magexo_Pos::POS" resource="Magento_Backend:content" action="magexo_pos/manage"/>
+        <add id="Magexo_Pos::POS" title="Point of Sale" module="Magexo_Pos" sortOrder="20" parent="Magento_Backend::content" resource="Magento_Backend::content"/>
+        <add id="Magento_Pos::manage" title="Manage" module="Magexo_Pos" sortOrder="0" parent="Magexo_Pos::POS" resource="Magento_Backend::content" action="magexo_pos/pos/index"/>
     </menu>
 </config>

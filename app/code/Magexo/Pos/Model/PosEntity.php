@@ -10,14 +10,14 @@ use Magento\Framework\Model\AbstractModel;
  */
 class PosEntity extends AbstractModel implements IdentityInterface
 {
-    const CACHE_TAG = "test_pos_entity";
+    const CACHE_TAG = "magexo_pos_entity";
 
-    protected $_cacheTag = "test_pos_entity";
+    protected $_cacheTag = "magexo_pos_entity";
 
-    protected $_eventPrefix = "test_pos_entity";
+    protected $_eventPrefix = "magexo_pos_entity";
 
-    public function __construct() {
-        $this->_init('Test\Pos\Model\ResourceModel\PosEntity');
+    protected function _construct() {
+        $this->_init('Magexo\Pos\Model\ResourceModel\PosEntity');
     }
 
     public function getIdentities()

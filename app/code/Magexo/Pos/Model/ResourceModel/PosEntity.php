@@ -18,6 +18,6 @@ class PosEntity extends AbstractDb
 
     protected function _construct()
     {
-        $this->_init('test_pos_entity', 'pos_id');
+        $this->_init('pos_entity', 'pos_id');
     }
 }

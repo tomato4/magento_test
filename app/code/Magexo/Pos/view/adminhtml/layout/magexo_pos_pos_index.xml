@@ -2,7 +2,7 @@
     <update handle="styles"/>
     <body>
         <referenceContainer name="content">
-            <uiComponent name="test_pos_entity_listing"/>
+            <uiComponent name="magexo_pos_pos_listing"/>
         </referenceContainer>
     </body>
 </page>

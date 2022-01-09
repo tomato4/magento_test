@@ -9,7 +9,7 @@ use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 class Collection extends AbstractCollection
 {
     protected $_idFieldName = 'pos_id';
-    protected $_eventPrefix = 'test_pos_entity_collection';
+    protected $_eventPrefix = 'magexo_pos_entity_collection';
     protected $_eventObject = 'pos_entity_collection';
 
     /**
@@ -19,6 +19,6 @@ class Collection extends AbstractCollection
      */
     protected function _construct()
     {
-        $this->_init('Test\Pos\Model\PosEntity', 'Test\Pos\Model\ResourceModel\PosEntity');
+        $this->_init('Magexo\Pos\Model\PosEntity', 'Magexo\Pos\Model\ResourceModel\PosEntity');
     }
 }

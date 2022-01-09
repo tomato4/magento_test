@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Magexo\Pos\Controller\Adminhtml;
+namespace Magexo\Pos\Controller\Adminhtml\Pos;
 
 
 use Magento\Backend\App\Action;
 use Magento\Framework\View\Result\PageFactory;
 
-class PosView extends Action
+class Index extends Action
 {
     protected $resultPageFactory = false;
 
@@ -23,7 +23,8 @@ class PosView extends Action
     public function execute()
     {
         $resultPage = $this->resultPageFactory->create();
-        $resultPage->getConfig()->getTitle()->prepend((__('Posts')));
+        $resultPage->setActiveMenu("Magento_Backend::content");
+        $resultPage->getConfig()->getTitle()->prepend((__('Point of Sale')));
 
         return $resultPage;
     }
