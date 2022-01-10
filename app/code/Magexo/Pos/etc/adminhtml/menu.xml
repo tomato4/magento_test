@@ -3,5 +3,6 @@
     <menu>
         <add id="Magexo_Pos::POS" title="Point of Sale" module="Magexo_Pos" sortOrder="20" parent="Magento_Backend::content" resource="Magento_Backend::content"/>
         <add id="Magento_Pos::manage" title="Manage" module="Magexo_Pos" sortOrder="0" parent="Magexo_Pos::POS" resource="Magento_Backend::content" action="magexo_pos/pos/index"/>
+        <add id="Magento_Pos::create" title="Create new POS" module="Magexo_Pos" sortOrder="1" parent="Magexo_Pos::POS" resource="Magento_Backend::content" action="magexo_pos/pos/create"/>
     </menu>
 </config>
